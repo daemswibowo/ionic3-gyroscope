@@ -6,8 +6,10 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 
+// providers
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Gyroscope } from '@ionic-native/gyroscope';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
+    Gyroscope,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
