@@ -5,3 +5,9 @@ Clone/download repositori ini kemudian jalankan perintah berikut
 cd ionic3-gyroscope
 npm install
 ```
+
+kemudian run di platform android Anda
+
+```bash
+ionic cordova run android
+```
